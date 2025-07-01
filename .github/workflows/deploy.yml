@@ -5,8 +5,8 @@ on:
     branches: [ main ]  # or your deployment branch
 
 env:
-  AWS_REGION: demo-ecs
-  ECR_REPO: my-app-repo
+  AWS_REGION: us-east-1
+  ECR_REPO: demo-ecs
   CLUSTER_NAME: demo-ecs-cluster
   SERVICE_NAME: flask-ecs-task-defination-service-mi196uwf
   TASK_DEF: flask-ecs-task-defination    # Your base task definition template
