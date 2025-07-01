@@ -9,7 +9,7 @@ env:
   ECR_REPO: demo-ecs
   CLUSTER_NAME: demo-ecs-cluster
   SERVICE_NAME: flask-ecs-task-defination-service-mi196uwf
-  TASK_DEF: flask-ecs-task-defination    # Your base task definition template
+  TASK_DEF: flask-ecs-task-defination.json   # Your base task definition template
   CONTAINER_NAME: flask-container-1
 
 jobs:
